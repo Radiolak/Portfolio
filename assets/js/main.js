@@ -28,3 +28,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const toggleNavButton = document.getElementById("toggleNav");
+    const sidebar = document.getElementById("sidebar");
+
+    toggleNavButton.addEventListener("click", function () {
+        sidebar.classList.toggle("active");
+    });
+
+});
+
